@@ -21,8 +21,8 @@ function Banner() {
     return (
 
         <div 
-         className='banner'>
-            <div className='content' style={{backgroundImage:`url(${movie?imageUrl+movie.backdrop_path:''})`,height:310}} >
+         className='banner' style={{backgroundImage:`url(${movie?imageUrl+movie.backdrop_path:''})`,height:410}}>
+            <div className='content'  >
                 {console.log('hmmmm')}
                 <h1 className='title'>{movie ? movie.title:'ajmal'}</h1>
                 <div className='banner_buttons' >
